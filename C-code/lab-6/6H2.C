@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n;
+clrscr();
+printf("Enter the number of rows n :");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+printf("\n");
+for(j=n;j>=i;j--)
+printf("%d\t",j);
+}
+getch();
+}
